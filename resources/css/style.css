@@ -250,7 +250,8 @@ header.header {
 }
 
 .logo {
-    height: 100px;
+    display: none;
+    height: 50px;
     width: auto;
     float: left;
 }
@@ -363,6 +364,8 @@ header.header {
 .meals-showcase {
     list-style: none;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .meals-showcase li {
@@ -393,7 +396,7 @@ header.header {
 
 .section-meals {
     margin-top: 15rem;
-    padding: 10% 0 0 3%;
+    padding: 10% 0 3% 0;
 }
 
 
